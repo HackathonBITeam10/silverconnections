@@ -1,3 +1,55 @@
 body {
-    background-color: #585858;
+    background-color: rgb(210, 210, 210);
+}
+
+header h1 {
+    font-size: 4em;
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: bold;
+    min-width: 80%;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.intro p {
+    padding: 50px; 
+    font-size: 2em;
+    text-align: justify;
+    max-width: 80%;    
+    background-color: white;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.card {
+    max-width: 350px;
+    padding: 50px 30px;
+    border-radius: 15px;
+    background-color: white;
+    margin: 20px;
+    text-align: center;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+
+img {
+    width: 100%;
+    height: 400px;
 }
