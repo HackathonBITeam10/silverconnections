@@ -190,7 +190,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   All content was written by the developer.
 
--   Colors used in the project were considered for their emotional effectiveness as outlined in the following document [here](https://www.creativebloq.com/web-design/12-colours-and-emotions-they-evoke-61515112
+-   Colors used in the project were considered for their emotional effectiveness as outlined in the following document [here](https://www.creativebloq.com/web-design/12-colours-and-emotions-they-evoke-61515112).
 
 ### Media
 
