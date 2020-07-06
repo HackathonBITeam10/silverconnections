@@ -10,7 +10,7 @@ body {
 
 
 
-/****************************************************************** Header styling */
+/****************************************************************** Header and footer styling */
 
 header h1 {
     font-size: 3em;
@@ -20,14 +20,14 @@ header h1 {
     min-width: 80%;
 }
 
-.intro {
+.topandbotton {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 
-.intro div {
+.topandbotton div {
     padding: 50px; 
     font-size: 1.5em;
     text-align: justify;
@@ -38,7 +38,31 @@ header h1 {
     box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.4), 0 10px 20px 0 rgba(0, 0, 0, 0.25);
 }
 
+.topandbotton div a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
 
+#foot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#button {
+    text-align: center;
+    width: 35%;
+    font-size: 0.8em;
+    background-color: #029ed9;
+}
+
+.designby {
+    text-align: center;
+    font-size: 2em;
+}
 
 /****************************************************************** Main section styling */
 
@@ -88,7 +112,7 @@ img {
             font-weight: bold;
         }
 
-        .intro div {
+        .topandbotton div {
             width: 80%;
             font-size: 1.8em;
         }
@@ -112,7 +136,7 @@ img {
             font-weight: bold;
         }
 
-        .intro div {
+        .topandbotton div {
             width: 84%;
             font-size: 2em;
         }
@@ -135,7 +159,7 @@ img {
             font-weight: bold;
         }
 
-        .intro div {
+        .topandbotton div {
             width: 84%;
             font-size: 3em;
         }
@@ -162,7 +186,7 @@ img {
             font-weight: bold;
         }
 
-        .intro div {
+        .topandbotton div {
             width: 84%;
             font-size: 3.5em;
         }
