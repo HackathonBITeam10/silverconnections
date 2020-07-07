@@ -52,29 +52,35 @@ header h1 {
 }
 
 
-#button {
+
+.button {
     text-align: center;
     width: auto;
-    font-size: 0.8em;
+    font-size: 1.5em;
     padding: 30px;
     background-color: #029ed9;
+    border-radius: 15px;
+    margin: 20px;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.4), 0 10px 20px 0 rgba(0, 0, 0, 0.25);
 }
 
-#button p {
+.button p {
     text-align: center;    
 }
 
-#button2 {
+
+#double-button {
+    padding: 20px; 
     text-align: center;
-    width: auto;
     font-size: 0.8em;
-    padding: 30px;
-    background-color: #029ed9;
+    background-color: white;
+    border-radius: 0;
+    margin: 0px;
+    box-shadow: none;
+    display: flex;
+    justify-content: center;
 }
 
-#button2 p {
-    text-align: center;    
-}
 
 .designby {
     text-align: center;
