@@ -1,72 +1,233 @@
-
-
-
 /****************************************************************** Initial styling on body tag */
 
 body {
-    background-color: #89bad2;
-    margin: 0;
+  background-color: #89bad2;
+  margin: 0;
 }
 
-
-
-/****************************************************************** Header styling */
+/****************************************************************** Header and footer styling */
 
 header h1 {
-    font-size: 4em;
-    text-align: center;
-    letter-spacing: 5px;
-    font-weight: bold;
-    min-width: 80%;
+  font-size: 3em;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: bold;
+  min-width: 80%;
 }
 
-.intro {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.topandbotton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-
-.intro p {
-    padding: 50px; 
-    font-size: 2em;
-    text-align: justify;
-    max-width: 80%;    
-    background-color: white;
-    border-radius: 15px;
-    margin: 20px;
+.topandbotton div {
+  padding: 50px;
+  font-size: 1.5em;
+  text-align: justify;
+  max-width: 87%;
+  background-color: white;
+  border-radius: 15px;
+  margin: 20px;
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.4), 0 10px 20px 0 rgba(0, 0, 0, 0.25);
 }
 
+.topandbotton div a {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+}
 
+#foot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  text-align: center;
+  width: auto;
+  font-size: 1.5em;
+  padding: 30px;
+  background-color: #029ed9;
+  border-radius: 15px;
+  margin: 20px;
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.4), 0 10px 20px 0 rgba(0, 0, 0, 0.25);
+}
+
+.button p {
+  text-align: center;
+}
+
+#double-button {
+  padding: 20px;
+  text-align: center;
+  font-size: 0.8em;
+  background-color: white;
+  border-radius: 0;
+  margin: 0px;
+  box-shadow: none;
+  display: flex;
+  justify-content: center;
+}
+
+.designby {
+  text-align: center;
+  font-size: 2em;
+}
 
 /****************************************************************** Main section styling */
 
-
 .card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 80%;
+  padding: 50px 30px;
+  font-size: 1.8em;
+  border-radius: 15px;
+  background-color: white;
+  margin: 20px;
+  text-align: center;
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.4), 0 10px 20px 0 rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+img {
+  width: auto;
+  height: 280px;
+}
+
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li, 
+li img, 
+p img {
+    margin: 0.3em;
+}
+
+
+/****************************************************************** Media queries */
+
+/* Media queries for iPad */
+
+@media screen and (min-width: 767px) {
+  header h1 {
+    font-size: 5em;
+    letter-spacing: 3px;
+    font-weight: bold;
+  }
+
+  .topandbotton div {
+    width: 80%;
+    font-size: 1.8em;
+  }
+
+  .card {
+    width: 36%;
+    font-size: 1.8em;
+  }
+
+  #doublebutton {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+  }
 }
 
+/* Media queries for iPad Pro and older Laptop/Desktops */
 
-.card {
-    max-width: 350px;
-    padding: 50px 30px;
-    border-radius: 15px;
-    background-color: white;
-    margin: 20px;
-    text-align: center;
+@media screen and (min-width: 1023px) {
+  header h1 {
+    font-size: 6em;
+    letter-spacing: 3.5px;
+    font-weight: bold;
+  }
+
+  .topandbotton div {
+    width: 84%;
+    font-size: 2em;
+  }
+
+  .card {
+    width: 39%;
+    font-size: 2em;
+  }
 }
 
-.card a {
-    text-decoration: none;
+/* Media queries for newer Laptop/Desktops HD */
+
+@media screen and (min-width: 1420px) {
+  header h1 {
+    font-size: 8em;
+    letter-spacing: 4px;
+    font-weight: bold;
+  }
+
+  .topandbotton div {
+    width: 84%;
+    font-size: 3em;
+  }
+
+  .card {
+    width: 40%;
+    font-size: 3em;
+  }
+
+  img {
+    height: 320px;
+  }
 }
 
+/* Media queries for newer Laptop/Desktops and TVs Full HD */
 
-img {
-    width: 100%;
+@media screen and (min-width: 1790px) {
+  header h1 {
+    font-size: 9em;
+    letter-spacing: 5px;
+    font-weight: bold;
+  }
+
+  .topandbotton div {
+    width: 84%;
+    font-size: 3.5em;
+  }
+
+  .card {
+    width: 40%;
+    font-size: 3.5em;
+  }
+}
+
+/* Media queries for newer Laptop/Desktops and TVs 2K */
+@media screen and (min-width: 2390px) {
+  .card {
+    min-width: 40%;
+  }
+
+  img {
     height: 400px;
+  }
+
+  header h1 {
+    font-size: 10em;
+    letter-spacing: 5px;
+  }
 }
-
-
