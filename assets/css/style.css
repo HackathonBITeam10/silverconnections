@@ -109,11 +109,13 @@ header h1 {
     box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.4), 0 10px 20px 0 rgba(0, 0, 0, 0.25);
 }
 
-.card a {
+a {
     text-decoration: none;
     color: black;
     font-weight: bold;
 }
+
+
 
 
 img {
