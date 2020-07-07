@@ -54,9 +54,14 @@ header h1 {
 
 #button {
     text-align: center;
-    width: 35%;
+    width: auto;
     font-size: 0.8em;
+    padding: 30px;
     background-color: #029ed9;
+}
+
+#button p {
+    text-align: center;    
 }
 
 .designby {
