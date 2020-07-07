@@ -64,6 +64,18 @@ header h1 {
     text-align: center;    
 }
 
+#button2 {
+    text-align: center;
+    width: auto;
+    font-size: 0.8em;
+    padding: 30px;
+    background-color: #029ed9;
+}
+
+#button2 p {
+    text-align: center;    
+}
+
 .designby {
     text-align: center;
     font-size: 2em;
@@ -127,7 +139,12 @@ img {
             font-size: 1.8em;
         }
 
-        
+        #doublebutton {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
     }
 
 
