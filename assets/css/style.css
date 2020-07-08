@@ -1,14 +1,19 @@
-
-
-
 /****************************************************************** Initial styling on body tag */
 
 body {
-    background-color: #89bad2;
-    margin: 0;
+  background-color: #89bad2;
+  margin: 0;
 }
 
+/****************************************************************** Header and footer styling */
 
+header h1 {
+  font-size: 3em;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: bold;
+  min-width: 80%;
+}
 
 /****************************************************************** Header and footer styling */
 
@@ -26,6 +31,11 @@ header h1 {
     justify-content: center;
 }
 
+#foot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .topandbotton div {
     padding: 50px; 
@@ -81,22 +91,96 @@ header h1 {
     justify-content: center;
 }
 
+.button p {
+  text-align: center;
+}
 
 .designby {
     text-align: center;
     font-size: 2em;
 }
 
+.designby {
+  text-align: center;
+  font-size: 2em;
+}
+
 /****************************************************************** Main section styling */
 
-
 .card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 80%;
+  padding: 50px 30px;
+  font-size: 1.8em;
+  border-radius: 15px;
+  background-color: white;
+  margin: 20px;
+  text-align: center;
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.4), 0 10px 20px 0 rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+img {
+  width: auto;
+  height: 280px;
+}
+
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li, 
+li img, 
+p img {
+    margin: 0.3em;
+}
+
+
+/****************************************************************** Media queries */
+
+/* Media queries for iPad */
+
+@media screen and (min-width: 767px) {
+  header h1 {
+    font-size: 5em;
+    letter-spacing: 3px;
+    font-weight: bold;
+  }
+
+  .topandbotton div {
+    width: 80%;
+    font-size: 1.8em;
+  }
+
+  .card {
+    width: 36%;
+    font-size: 1.8em;
+  }
+
+  #doublebutton {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+  }
 }
 
+/* Media queries for iPad Pro and older Laptop/Desktops */
 
 .card {
     width: 80%;
@@ -115,6 +199,7 @@ a {
     font-weight: bold;
 }
 
+/* Media queries for newer Laptop/Desktops and TVs Full HD */
 
 
 
@@ -123,7 +208,12 @@ img {
     height: 280px;
 }
 
-
+/* Media queries for newer Laptop/Desktops and TVs 2K */
+@media screen and (min-width: 2390px) {
+  .card {
+    min-width: 40%;
+  }
+}
 /****************************************************************** Media queries */
 
 
@@ -243,5 +333,4 @@ img {
             font-size: 10em;
             letter-spacing: 5px;
         }
-
     }
