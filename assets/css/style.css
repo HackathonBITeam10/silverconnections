@@ -157,69 +157,19 @@ p img {
 }
 
 
-/****************************************************************** Media queries */
+/****************************************************************** Skype stylings */
 
-/* Media queries for iPad */
-
-@media screen and (min-width: 767px) {
-  header h1 {
-    font-size: 5em;
-    letter-spacing: 3px;
-    font-weight: bold;
-  }
-
-  .topandbotton div {
-    width: 80%;
-    font-size: 1.8em;
-  }
-
-  .card {
-    width: 36%;
-    font-size: 1.8em;
-  }
-
-  #doublebutton {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+ul {
+    text-align: left;
 }
 
-/* Media queries for iPad Pro and older Laptop/Desktops */
-
-.card {
-    width: 80%;
-    padding: 50px 30px;
-    font-size: 1.8em;
-    border-radius: 15px;
-    background-color: white;
-    margin: 20px;
-    text-align: center;
-    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.4), 0 10px 20px 0 rgba(0, 0, 0, 0.25);
+.card p {
+    text-align: justify;
+    padding: 20px;
 }
 
-a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-}
-
-/* Media queries for newer Laptop/Desktops and TVs Full HD */
 
 
-
-img {
-    width: auto;
-    height: 280px;
-}
-
-/* Media queries for newer Laptop/Desktops and TVs 2K */
-@media screen and (min-width: 2390px) {
-  .card {
-    min-width: 40%;
-  }
-}
 /****************************************************************** Media queries */
 
 
@@ -279,6 +229,12 @@ img {
 
      @media screen and (min-width: 1420px) {
         
+        body {
+            margin-left: 300px;
+            margin-right: 300px;
+        }
+
+
         header h1 {
             font-size: 8em;
             letter-spacing: 4px;
@@ -287,12 +243,12 @@ img {
 
         .topandbotton div {
             width: 84%;
-            font-size: 3em;
+            font-size: 2em;
         }
 
         .card {
             width: 40%;
-            font-size: 3em;
+            font-size: 2em;
         }
 
         img {
@@ -314,12 +270,12 @@ img {
 
         .topandbotton div {
             width: 84%;
-            font-size: 3.5em;
+            font-size: 2.5em;
         }
 
         .card {
             width: 40%;
-            font-size: 3.5em;
+            font-size: 2.5em;
         }
         
     }
