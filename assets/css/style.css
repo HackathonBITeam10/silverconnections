@@ -51,8 +51,6 @@ header h1 {
     align-items: center;
 }
 
-
-
 .button {
     text-align: center;
     width: auto;
@@ -121,6 +119,27 @@ img {
     height: 280px;
 }
 
+/****************************************************************** Contact Form Styling */
+input , label {
+    display: block;
+    text-align: left;
+}
+
+input {
+    height: 90px;
+    font-size: 1.5em;
+    width: 80%;
+}
+
+.comment-text {
+    height: auto;
+    width: 80%;
+    font-size: 1.25em;
+}
+
+.contact-button {
+    
+}
 
 /****************************************************************** Media queries */
 
