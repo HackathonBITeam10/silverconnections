@@ -150,6 +150,11 @@ p img {
     margin: 0.3em;
 }
 
+.messenger-img {
+    width: 100%;
+    height: auto;
+}
+
 
 /****************************************************************** Media queries */
 
