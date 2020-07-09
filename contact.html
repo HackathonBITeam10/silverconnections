@@ -25,18 +25,19 @@
     
     <!-- Contact Form -->
     <section>
+                    
         <div class="topandbotton">
-            <div>
+            <div id="form">
+            <!-- Code Snippet borrowed from https://www.w3schools.com/tags/tag_form.asp -->
                 <form class="contact-form" action="https://formdump.codeinstitute.net/" method="post">
                     <label for="name">Your name:</label>
-                    <input class="submission" type="text" id="name" name="fname" required><br>
+                    <input class="input" type="text" id="name" name="name" placeholder="type here..." required><br>
                     <label for="email">Your email:</label>
-                    <input type="email" id="email" name="email" reqiured><br>
+                    <input class="input" type="email" id="email" name="email" placeholder="type here..." reqiured><br>
                     <label for="tech-name">Name of new technology:</label>
-                    <input type="text" id="tech-name" name="tech-name" required><br>
-                    <label for="comments">Further comments:</label>
-                    <textarea class="comment-text" rows="4" id="comments" name="comments" reqiured></textarea><br>
-                    <input type="submit" class="contact-button" value="Click here to Submit">
+                    <input class="input" type="text" id="tech-name" name="tech-name" placeholder="type here..." required><br>
+                        <a href="contact.html"><p class="button btn">SUBMIT</p>
+                    </a>
                 </form>                
             </div>
         </div>
