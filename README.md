@@ -64,6 +64,9 @@ This is an instructional website aimed at elderly users that will outline how to
     - This project uses Balsamic Wireframes to show the inteded design outcome for this site. Click here to view the [wireframes](https://).
 1. [AmIResponsive:](http://ami.responsivedesign.is/)
     - This project uses Am I Responsive for a layout of how the project will look across various devices.
+    1. [W3 Schools:](https://www.w3schools.com/tags/tag_form.asp)
+    - This project uses W3 Schools for the contact form on contact.html.
+    
 
 ## Testing
 
