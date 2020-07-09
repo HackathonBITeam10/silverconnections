@@ -63,7 +63,7 @@ This is an instructional website aimed at elderly users that will outline how to
 1. [Balsamiq:](https://balsamiq.com/)
     - This project uses Balsamic Wireframes to show the inteded design outcome for this site. Click here to view the [wireframes](https://).
 1. [AmIResponsive:](http://ami.responsivedesign.is/)
-This project uses Am I Responsive for a layout of how the project will look across various devices.
+    - This project uses Am I Responsive for a layout of how the project will look across various devices.
 
 ## Testing
 
