@@ -35,11 +35,14 @@ This is an instructional website aimed at elderly users that will outline how to
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](assets/wireframes/Desktop Wireframe.pdf)
+    -   Home Page Wireframe
+            <img src="./assets/wireframes/Desktop-Wireframe.png">
 
-    -   Mobile Wireframe - [View]assets/wireframes/Mobile Wireframe.pdf)
+    -   Mobile Wireframe
+            <img src="./assets/wireframes/Mobile-Wireframe.png">
 
-    -   Contact Us Page Wireframe - [View](assets/wireframes/Contact us Wireframe.pdf)
+    -   Contact Us Page Wireframe
+            <img src="./assets/wireframes/Contact-us-Wireframe.png">
 
 ## Features
 
