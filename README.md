@@ -35,11 +35,11 @@ This is an instructional website aimed at elderly users that will outline how to
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://)
+    -   Home Page Wireframe - [View](assets/wireframes/Desktop Wireframe.pdf)
 
-    -   Mobile Wireframe - [View](https://)
+    -   Mobile Wireframe - [View]assets/wireframes/Mobile Wireframe.pdf)
 
-    -   Contact Us Page Wireframe - [View](https://)
+    -   Contact Us Page Wireframe - [View](assets/wireframes/Contact us Wireframe.pdf)
 
 ## Features
 
