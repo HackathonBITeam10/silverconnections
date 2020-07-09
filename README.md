@@ -128,7 +128,7 @@ For testing the functionality of each page on the site, this project used the W3
 
 ### Known Bugs
 
--  Images are not showing up on other.html and will be fixed asap.
+-  Contact form not submitting and not validating fields.
 
 ## Deployment
 
