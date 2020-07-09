@@ -69,7 +69,7 @@ This project uses Am I Responsive for a layout of how the project will look acro
 
 For testing the functionality of each page on the site, this project used the W3C Markup Validator for HTML and the W3C CSS Validator to ensure no syntax errors were present.
 
--   [W3C Markup Validator](https://validator.w3.org/) - [Results](https://) 
+-   [W3C Markup Validator](https://validator.w3.org/) 
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)- No errors! 
 
 ### Testing User Stories from User Experience (UX) Section
