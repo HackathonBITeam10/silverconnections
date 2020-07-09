@@ -1,10 +1,10 @@
 <h1 align="center">Silver Connections</h1>
 
-[View the live project here.](https://)
+[View the live project here.](https://hackathonbiteam10.github.io/silverconnections/index.html)
 
 This is an instructional website aimed at elderly users that will outline how to use video communications technologies such as Zoom, Skype, Face time and messaging applications. It is designed to be fully responsive across a range of devices and incorporating simple design features to ensure visitors ease of use. 
 
-<h2 align="center"><img src="/">Include Am I Responsive img</h2>
+<img src="./assets/img/amisil.png">
 
 ## User Experience (UX)
 
@@ -27,11 +27,11 @@ This is an instructional website aimed at elderly users that will outline how to
 
 -   ### Design
     -   #### Colour Scheme
-        -   <em>To be added later</em>
+        -   The 2 main colors used in this project were white and blue (#029ed9)
     -   #### Typography
-        -   <em>To be added later</em> with an emphasis on how the typography and size are inserted with elderly users in mind.
+        -   Arial was used across all pages on the site. A larger font size of between 1.5 and 1.8em was used with elderly users in mind.
     -   #### Imagery
-        -   <em>To be added later</em>
+        -   Images were an integral part to how the website is laid out and for it's help in guiding users to learn about the technologies listed. 
 
 *   ### Wireframes
 
@@ -56,14 +56,6 @@ This is an instructional website aimed at elderly users that will outline how to
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
-    - This project uses Bootstrap4 in order to make the pages responsive and for styling.
-1. [Google Fonts:](https://fonts.google.com/)
-    - This project uses the imported fonts "" and "" across all pages taken from Google Fonts.
-1. [Font Awesome:](https://fontawesome.com/)
-    - This project uses icons from Font Awesome to improve UX and overall design. 
-<!-- 1. [jQuery:](https://jquery.com/)
-    - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript. -->
 1. [Git](https://git-scm.com/)
     - This project uses Git for version control, the Gitpod terminal for commits to Git and to Push content to GitHub.
 1. [GitHub:](https://github.com/)
@@ -77,8 +69,8 @@ This project uses Am I Responsive for a layout of how the project will look acro
 
 For testing the functionality of each page on the site, this project used the W3C Markup Validator for HTML and the W3C CSS Validator to ensure no syntax errors were present.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://)
+-   [W3C Markup Validator](https://validator.w3.org/) - [Results](https://) 
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)- No errors! 
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -130,7 +122,7 @@ For testing the functionality of each page on the site, this project used the W3
 
 ### Known Bugs
 
--  <em>To be filled in later</em>
+-  Images are not showing up on other.html and will be fixed asap.
 
 ## Deployment
 
@@ -138,25 +130,25 @@ For testing the functionality of each page on the site, this project used the W3
 
 This project was deployed to GitHub pages and can be viewd by following these steps:
 
-1. Log in to GitHub and go to the [GitHub Repository](https://)
+1. Log in to GitHub and go to the [GitHub Repository](https://github.com/HackathonBITeam10/silverconnections)
 2. Click on "Settings" just above the green button for "Code".
 3. Scroll down the "Settings" page until you come to "GitHub Pages".
 4. Under "Source" click on the dropdown which says "None" and select "Master Branch".
 5. The page will refresh automatically and return you to the top of the page.
-6. Go back doen to the "GitHub Pages" section and you will find the link to the now published site. [link:](include link to pages)
+6. Go back doen to the "GitHub Pages" section and you will find the link to the now published site. [link:](https://hackathonbiteam10.github.io/silverconnections/index.html)
 
 ### Forking the GitHub Repository
 
 Forking the GitHub Repository allows us to make a copy of the Original Repository. This allows a user to open the repositiory and to view and make changes without affecting the original. 
 To do this, follow these steps:
 
-1. Log in to GitHub and go to the [GitHub Repository](https://)
+1. Log in to GitHub and go to the [GitHub Repository](https://github.com/HackathonBITeam10/silverconnections)
 2. Below the top right of the page under the Navbar, click on the "Fork" button.
 3. A copy of the original repository has now been added to your GitHub account.
 
 ### Making a Local Clone
 
-1. Log in to GitHub and go to the [GitHub Repository](https://)
+1. Log in to GitHub and go to the [GitHub Repository](https://github.com/HackathonBITeam10/silverconnections)
 2. Click the green dropdown labelled "Code".
 3. Copy the link under "Clone with HTTPS".
 4. Open Git Bash.
@@ -184,17 +176,18 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
--   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): This projects used Bootstrap 4 to make the site responsive and to include such features as grids and cards.
+-   All code was written by the developers of BI Team 10 for the Code Institute July Hackathon 2020.
 
 ### Content
 
--   All content was written by the developer.
+-   All content was written by the developers on this team.
 
 -   Colors used in the project were considered for their emotional effectiveness as outlined in the following document [here](https://www.creativebloq.com/web-design/12-colours-and-emotions-they-evoke-61515112).
 
 ### Media
 
--   <em>To be added later</em>
+-   [Youtube](https://youtube.com/) - Instructional videos for Skype were taken from YouTube. 
+-   [Google Images](https://images.google.com/) - Icons and instructional images were taken from Google Images with licence for re-use allowed.
 
 ### Acknowledgements
 

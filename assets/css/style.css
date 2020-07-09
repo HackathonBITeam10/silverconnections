@@ -176,7 +176,6 @@ ul {
 #form {
     display: flex;
     flex-direction: column;
-    align-items: left;
 }
 
 input , label {
